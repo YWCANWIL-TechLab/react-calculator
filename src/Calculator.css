@@ -1,0 +1,97 @@
+.button {
+    background-color: gray;
+    border: none;
+}
+
+#calculator {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+    margin-inline: auto;
+    min-width: 35%;
+    max-width: 50%;
+    min-height: 60%;
+}
+
+#ui {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-areas:'clear clear time divide' 
+                                    'seven eight nine time'
+                                    'four five six equals'
+                                    'zr one two three'
+                                    'dc dc equals equals';
+    margin-block: 1em;
+    margin-inline: auto;
+    padding-inline: 1em;
+}
+
+#clear {
+    grid-area: clear;
+}
+
+#divide {
+    grid-area: divide;
+}
+
+#multiply {
+    grid-area: time;
+}
+
+#subtract {
+    grid-area: minus;
+}
+
+#add {
+    grid-area: plus;
+}
+
+#nine {
+    grid-area: nine;
+}
+
+#eight {
+    grid-area: eight;
+}
+
+#seven {
+    grid-area: seven;
+}
+
+#six {
+    grid-area: six;
+}
+
+#five {
+    grid-area: five;
+}
+
+#four {
+    grid-area: four;
+}
+
+#three {
+    grid-area: three;
+}
+
+#two {
+    grid-area: two;
+}
+
+#one {
+    grid-area: one;
+}
+
+#zero {
+    grid-area: zr;
+}
+
+#decimal {
+    grid-area: dc;
+}
+
+#equals {
+    grid-area: equals;
+}
+
